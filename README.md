@@ -1,43 +1,56 @@
 # Gestor de Negocio
 
-Aplicación web desarrollada en **Django** para la gestión de un pequeño negocio de hostelería (ejemplo: asador de pollos).  
-Permite controlar **productos, inventario, pedidos, facturas, gastos y balance** de forma sencilla.
+Aplicación web desarrollada en **Django** para la gestión de pequeños negocios de hostelería (ej. carnicería o asador de pollos).  
+Permite controlar **ventas, pedidos, inventario, clientes, gastos y balance financiero** desde una única plataforma.
 
-👉 **Demo online**: [https://TU_USUARIO.pythonanywhere.com](https://gestordenegocio.pythonanywhere.com)  
-*(usuario demo incluido: `demo` / contraseña: `demo1234`)*
+## Demo
 
----
+Aplicación disponible online:
 
-## ✨ Funcionalidades
+https://gestordenegocio.pythonanywhere.com
 
-### 🐓 Módulo Asador
-- 📝 Creación y control de pedidos.
-- 📦 Gestión de productos y menús.
-- 🏪 Inventario actualizado en tiempo real.
-- 📊 Control de gastos.
-- 📈 Balance financiero con filtros por fecha.
-
-### 🥩 Módulo Carnicería
-- 🛒 Registro de ventas y compras.
-- 💸 Control de gastos y capital.
-- 👥 Gestión de clientes.
-- 📑 Facturación de pedidos.
-- 📈 Balance financiero con filtros por fecha.
+- usuario: `demo`  
+- contraseña: `demo1234`
 
 ---
 
-## 🛠️ Tecnologías usadas
+## Características
 
-- **Backend:** Django 5, Python 3.10
-- **Base de datos:** SQLite (simple y portable)
-- **Frontend:** HTML, CSS personalizado
-- **Hosting:** PythonAnywhere
+### Gestión de pedidos
+- Creación y seguimiento de pedidos.
+- Control de producción diaria.
+- Registro histórico de pedidos.
+
+### Gestión de productos e inventario
+- Administración de productos y menús.
+- Actualización automática de stock.
+- Control de inventario en tiempo real.
+
+### Gestión financiera
+- Registro de gastos.
+- Balance financiero con filtros por fecha.
+- Control de ingresos y ventas.
+
+### Gestión de clientes
+- Registro y gestión de clientes.
+- Facturación automática de pedidos.
+
+### Facturación
+- Generación automática de **facturas en PDF**.
+- Historial completo de ventas y pedidos.
 
 ---
 
-## 🚀 Instalación en local
+## Tecnologías utilizadas
 
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/CarlosTarrino98/Gestor-de-negocio.git
-   cd Gestor-de-negocio
+Backend
+- Python
+- Django
+
+Frontend
+- HTML
+- CSS
+- JavaScript
+
+Base de datos
+- MySQL
